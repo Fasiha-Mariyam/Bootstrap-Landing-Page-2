@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://i.pinimg.com/originals/71/0a/26/710a26d2c8b24b71f99d4714bce66225.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Bootstrap website</title>
+</head>
+<body>
+  <!-- NavBar Section -->
+
+<div class="bgImg">
+  <nav class="navbar navbar-expand-lg bg-transparent text-white" >
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">
+        ResearchM4
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="#Home">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#About">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Order">Contact
+              </a>
+            </li>
+            </ul>
+      </div>
+    </div>
+  </nav>
+<div id="ContentANDimage" class="d-flex justify-content-center">
+  <div id="NO1">
+    <div class="container mt-5  text-black fs-1 fw-5">
+      <div class="text">Internet research  <br> for your business.</div>
+      
+     </div>
+     <small class="text-white " id="smallLetters">Join Us to Explore More About Business!</small>
+    <br><button class=" bg-transparent text-white px-4" id="navBtn">Get Started</button>
+  </div>
+  <div id="NO2" >
+    <img src="data:image/png;base64,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" alt="">
+  </div>
+</div>
+
+</div>
+
+
+  <!-- Services -->
+
+  <section id="Services" class="container-fluid my-5" >
+      <div class="container overflow-hidden  ">
+        <div class="heading text-center my-5">
+          <h1>Our Features</h1>
+        </div>
+        <div class="row gx-5 mx-5">
+          <div class="col ">
+            <div >
+             
+            </div>
+           <div style="background-color: #ff6571; color: #082c4e;" class="p-3"data-aos="fade-right">
+            <img width="50%" src="https://cdn-icons-png.flaticon.com/128/10761/10761368.png" alt="">
+            <h3>Marketing</h3>
+          <small > 
+            Marketing is the bridge that connects your offerings with your potential customers services etc. 
+          </small>
+          <br><br><button id="serviceBtn">Read more</button>
+            </div>
+          </div>
+          <div class="col">
+            <div style="background-color: #ffcb00; color: #082c4e;" class="p-3"data-aos="fade-up">
+              <img width="50%" src="https://cdn-icons-png.flaticon.com/128/11240/11240303.png" alt="">
+              <h3>Design</h3>
+            <small> 
+              Design is more than just aesthetics; it's the visual representation of your brand's essence</small>
+            <br><br><button id="serviceBtn">Read more</button>
+          </div>
+          </div>
+          <div class="col ">
+            <div style="background-color: #21a5e5; color: #082c4e;" class="p-3"data-aos="fade-left">
+              
+              <img width="50%" src="https://cdn-icons-png.flaticon.com/128/992/992522.png" alt="">
+              <h3>Research</h3>
+            <small  > 
+              Effective marketing and design strategies are built on a foundation of thorough research. 
+            </small><br><br>
+            <button id="serviceBtn">Read more</button>
+          </div>
+          </div>
+          <div class="col ">
+            <div style="background-color: #f2e9e2; color: #082c4e;" class="p-3" data-aos="fade-left">
+              <img width="50%" src="https://cdn-icons-png.flaticon.com/128/10694/10694512.png" alt="">
+              <h3>Branding</h3>
+            <small  > 
+              Branding goes beyond a catchy tagline; it's about shaping the perception and feelings associated
+            </small><br><br>
+            <button id="serviceBtn">Read more</button>
+          </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- Footer / contact -->
+  
+ 
+  <section  class=" text-white p-3" style="background-color:#082c4e ;" id="footer" >
+
+    <h4 class="pt-3">Explore the research we've done <br> for our great clients.<br><span> View Now</span></h4>
+     
+</section> 
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
